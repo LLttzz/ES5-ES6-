@@ -1,3 +1,4 @@
+ES5
 var TodoApi = function() {
     this.baseUrl = 'url'
 }
@@ -60,7 +61,7 @@ TodoApi.prototype.update = function(todo_id, task, callback) {
     })
 }
 
-
+ES6
 class TodoApi {
     constructor() {
         this.baseUrl = 'url'
